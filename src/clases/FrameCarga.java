@@ -3,8 +3,9 @@ package clases;
 import javax.swing.ImageIcon;
 
 public class FrameCarga extends javax.swing.JFrame {
-
+    
     // Frame con una progressBar de carga, es meramente estética
+    //Se quita del proyecto
     public FrameCarga() {
         setIconImage(new ImageIcon(getClass().getResource("images/mine.png")).getImage());
         initComponents();
