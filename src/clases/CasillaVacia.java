@@ -84,7 +84,7 @@ public class CasillaVacia extends Casilla {
             if(FrameJuego.casillas[i+1][j+1] instanceof CasillaMinada){                   minas++;}
             if(FrameJuego.casillas[i-1][j+1] instanceof CasillaMinada){                   minas++;}
             if(FrameJuego.casillas[i][j+1] instanceof CasillaMinada){                     minas++;}
-            return minas;  
+            return minas;   
         }
 
 
